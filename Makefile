@@ -1,4 +1,4 @@
-CFLAGS=-O3 --max-inline 256
+LANCE_CFLAGS=-O3 --max-inline 256
 SOURCES=$(wildcard src/*.c)
 
 build_lance:
